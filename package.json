@@ -1,0 +1,36 @@
+{
+  "name": "@pipobscure/base32",
+  "version": "0.0.0",
+  "description": "Base32 Encodeing/Decoding",
+  "keywords": [
+    "Base32"
+  ],
+  "files": [
+    "dist/base32.js",
+    "dist/base32.d.ts"
+  ],
+  "homepage": "https://github.com/pipobscure/base32#readme",
+  "bugs": {
+    "url": "https://github.com/pipobscure/base32/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipobscure/base32.git"
+  },
+  "license": "EUPL-1.2",
+  "author": "Philipp Dunkel <pip@pipobscure.com>",
+  "type": "module",
+  "exports": "./dist/base32.js",
+  "scripts": {
+    "test": "node --test src/*.test.ts",
+    "build": "tsc --build --verbose",
+    "check": "biome check --write",
+    "prepublishOnly": "npm run build",
+    "postversion": "git push --follow-tags"
+  },
+  "devDependencies": {
+    "@pipobscure/biome": "^1.1.2",
+    "@types/node": "^24.9.2",
+    "typescript": "^5.9.3"
+  }
+}
