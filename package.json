@@ -1,6 +1,6 @@
 {
   "name": "@pipobscure/base32",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Base32 Encodeing/Decoding",
   "keywords": [
     "Base32"
