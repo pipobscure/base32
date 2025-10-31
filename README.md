@@ -108,4 +108,4 @@ Written entirely in TypeScript with comprehensive type definitions—no need for
 
 ## 📄 License
 
-EUPL v1.2 © 2025 Philipp Dunkel <pip@pipobscure.com>
+© 2025 Philipp Dunkel <pip@pipobscure.com> [EUPL v1.2](https://eupl.eu/1.2/en)
